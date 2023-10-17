@@ -1,0 +1,15 @@
+@import 'variables.scss';
+@import 'utils.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 375px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-dark);
+}
